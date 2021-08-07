@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Hello World!</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <audio id="audio" alt="" src="" allow="autoplay"></audio>
+        <div id="one">
+          <img
+            src="https://cdn.glitch.com/221e52c5-3f03-4738-a797-a895d4174e5d%2F%E7%BA%A2%E8%89%B2banner%E5%89%AF%E6%9C%AC.png?v=1628210005751"
+            class="naicha"
+            title="Click the image!"
+          />          
+          <div class="grid-container" id="one">
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/221e52c5-3f03-4738-a797-a895d4174e5d%2F%E7%BA%A2-%E7%99%BE%E9%A6%99%E6%9E%9C-1*1.jpg?v=1628124044006"
+                class="naicha"
+                alt="百香果"
+                title="黄桃大果肉，吨吨喝不够"
+                onclick="option(this)"
+              />
+              <div class="card-right">
+                <p class="naicha-name">
+                  百香果
+                </p>
+                <p class="naicha-name">
+                  ¥8.00起
+                </p>
+                <!--<button id="config-button" onclick="option(...)">
+                  选口味
+                </button>-->
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/221e52c5-3f03-4738-a797-a895d4174e5d%2F%E7%BA%A2-%E8%9C%9C%E6%A1%83%E5%9B%9B%E5%AD%A3%E6%98%A5-1*1.jpg?v=1628124085089"
+                class="naicha"
+                alt="蜜桃四季春"
+                title="黄桃大果肉，吨吨喝不够"
+                onclick="option(this)"
+              />
+              <div class="card-right">
+                <p class="naicha-name">
+                  蜜桃四季春
+                </p>
+                <p class="naicha-name">
+                  ¥8.00起
+                </p>
+                <!--<button id="config-button" onclick="option(...)">
+                  选口味
+                </button>-->
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/221e52c5-3f03-4738-a797-a895d4174e5d%2F%E7%BA%A2-%E9%B2%9C%E6%A9%99%E7%9B%8A%E8%8F%8C%E5%A4%9A-1*1.jpg?v=1628124089701"
+                class="naicha"
+                alt="鲜橙益菌多"
+                title="黄桃大果肉，吨吨喝不够"
+                onclick="option(this)"
+              />
+              <div class="card-right">
+                <p class="naicha-name">
+                  鲜橙益菌多
+                </p>
+                <p class="naicha-name">
+                  ¥8.00起
+                </p>
+                <!--<button id="config-button" onclick="option(...)">
+                  选口味
+                </button>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="two">
+        <img
+          src="https://cdn.glitch.com/221e52c5-3f03-4738-a797-a895d4174e5d%2F%E8%93%9D%E8%89%B2banner%E5%89%AF%E6%9C%AC.png?v=1628225661140"
+          class="naicha"
+          title="Click the image!"
+        />        
+        <div class="grid-container" id="two">
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/221e52c5-3f03-4738-a797-a895d4174e5d%2F%E8%93%9D-%E7%99%BE%E9%A6%99%E6%9E%9C-1*1.jpg?v=1628124092698"
+                class="naicha"
+                alt="百香果"
+                title="黄桃大果肉，吨吨喝不够"
+                onclick="option(this)"
+              />
+              <div class="card-right">
+                <p class="naicha-name">
+                  百香果
+                </p>
+                <p class="naicha-name">
+                  ¥8.00起
+                </p>
+                <!--<button id="config-button" onclick="option(...)">
+                  选口味
+                </button>-->
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/221e52c5-3f03-4738-a797-a895d4174e5d%2F%E8%93%9D-%E8%9C%9C%E6%A1%83%E5%9B%9B%E5%AD%A3%E6%98%A5-1*1.jpg?v=1628124097585"
+                class="naicha"
+                alt="蜜桃四季春"
+                title="黄桃大果肉，吨吨喝不够"
+                onclick="option(this)"
+              />
+              <div class="card-right">
+                <p class="naicha-name">
+                  蜜桃四季春
+                </p>
+                <p class="naicha-name">
+                  ¥8.00起
+                </p>
+                <!--<button id="config-button" onclick="option(...)">
+                  选口味
+                </button>-->
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://cdn.glitch.com/221e52c5-3f03-4738-a797-a895d4174e5d%2F%E8%93%9D-%E9%B2%9C%E6%A9%99%E7%9B%8A%E8%8F%8C%E5%A4%9A-1*1.jpg?v=1628124103597"
+                class="naicha"
+                alt="鲜橙益菌多"
+                title="黄桃大果肉，吨吨喝不够"
+                onclick="option(this)"
+              />
+              <div class="card-right">
+                <p class="naicha-name">
+                  鲜橙益菌多
+                </p>
+                <p class="naicha-name">
+                  ¥8.00起
+                </p>
+                <!--<button id="config-button" onclick="option(...)">
+                  选口味
+                </button>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        </p>
+            <p id="random"></p>
+            <p><a href="https://kclbs.eu.qualtrics.com/jfe/form/SV_07k4GIFYJG3k9P8">问卷入口</a></p>
+        <div id="overlay">
+          <div class="menu">
+            <img
+              id="overlay-img" 
+              src="name"
+              class="naicha"
+              title="Click the image!"
+            />
+            <div id="overlay-content">
+              <p id="overlay-naicha-name"></p>
+              <p id="overlay-naicha-desc"></p>
+              <div>                
+                <p id="overlay-naicha-option">小料</p>
+                <button class="overlay-config-button" id="a1" onclick="config(this)">
+                  不加
+                </button>
+                <button class="overlay-config-button" id="a2" onclick="config(this)">
+                  椰果
+                </button>
+                <button class="overlay-config-button" id="a3" onclick="config(this)">
+                  玫果冻
+                </button>
+                <button class="overlay-config-button" id="a4" onclick="config(this)">
+                  珍珠
+                </button>
+              </div>
+
+              <div>
+                <p id="overlay-naicha-option">温度</p>
+                <button class="overlay-config-button" id="b1" onclick="config(this)">
+                  正常冰
+                </button>
+                <button class="overlay-config-button" id="b2" onclick="config(this)">
+                  少冰
+                </button>
+                <button class="overlay-config-button" id="b3" onclick="config(this)">
+                  常温
+                </button>
+              </div>
+
+              <div>
+                <p id="overlay-naicha-option">糖度</p>
+                <button class="overlay-config-button" id="c1" onclick="config(this)">
+                  正常糖
+                </button>
+                <button class="overlay-config-button" id="c2" onclick="config(this)">
+                  少糖
+                </button>
+              </div>
+
+              <div>
+                <button id="overlay-ready-button" onclick="off()">
+                  选好了
+                </button>
+              </div>
+            </div>            
+          </div>          
+        </div>
+      </div>
+    </div>    
+    <script>
+      function option(img) {
+        $("#overlay-img").attr('src', img.src);
+        $('#overlay-naicha-name').text(img.alt);
+        $('#overlay-naicha-desc').text(img.title);
+        document.getElementById("overlay").style.display = "block";
+      }
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+          $('#a1').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          $('#a2').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          $('#a3').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          $('#a4').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          $('#b1').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          $('#b2').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          $('#b3').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          $('#c1').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          $('#c2').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+      }
+      function config(btn) {
+        if (btn.id.charAt(0) == 'a') {
+          if ($('#'+ btn.id).attr('class') == "overlay-config-button") {
+            $('#a1').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#a2').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#a3').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#a4').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#'+ btn.id).removeClass('overlay-config-button').addClass('overlay-config-button-active');
+          }
+          else {
+            $('#'+ btn.id).removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          }
+        }
+        if (btn.id.charAt(0) == 'b') {
+          if ($('#'+ btn.id).attr('class') == "overlay-config-button") {
+            $('#b1').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#b2').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#b3').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#'+ btn.id).removeClass('overlay-config-button').addClass('overlay-config-button-active');
+          }
+          else {
+            $('#'+ btn.id).removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          }
+        }
+        if (btn.id.charAt(0) == 'c') {
+          if ($('#'+ btn.id).attr('class') == "overlay-config-button") {
+            $('#c1').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#c2').removeClass('overlay-config-button-active').addClass('overlay-config-button');
+            $('#'+ btn.id).removeClass('overlay-config-button').addClass('overlay-config-button-active');
+          }
+          else {
+            $('#'+ btn.id).removeClass('overlay-config-button-active').addClass('overlay-config-button');
+          }
+        }
+        
+        
+      }
+    </script>
+  </body>
+</html>
