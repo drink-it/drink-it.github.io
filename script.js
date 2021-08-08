@@ -13,7 +13,7 @@ console.log(song);
 $("#audio").attr('src', songs[song]);
 $("#audio").attr('alt', song);
 var audio = document.getElementById("audio");
-audio.play();
+//audio.play();
 
 if(rdInt <= 2){
   // blue
