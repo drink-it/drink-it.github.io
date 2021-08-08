@@ -33,4 +33,6 @@ if(rdInt <= 2){
 
 $('#random').text("感谢您对本研究的参与和支持！您的编号为【"+rdInt+"】，请记住此编号以便回答接下来的问题。现在，您可以点击下方链接完成问卷：");
 
-
+function playPause() {
+  audio.play();
+}
